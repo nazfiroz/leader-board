@@ -22,6 +22,38 @@ hr {
   border: 1px solid gray;
   margin-bottom: 27px;
 }
+/* ------Heaers and Menu----- */
+header {
+  background-color: #562eff;
+  width: 100%;
+  height: 94px;
+}
+.header-icon {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+.header-menu {
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+  margin-top: 20px;
+}
+.menu-title {
+  margin: 15px;
+}
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  margin-right: 15px;
+}
+nav img {
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
 /* top players style  */
 .top-players {
   margin-bottom: 30px;
